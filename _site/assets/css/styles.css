@@ -1,0 +1,49 @@
+:root { --site-width: 1024px; --color-black: #222; --color-red: #cf000f; }
+
+* { padding: 0; margin: 0; box-sizing: border-box; font-family: "Open Sans", sans-serif; }
+
+html { font-size: 62.5%; }
+
+body { font-size: 1.6rem; }
+
+article, header, section, main, aside, footer { display: block; }
+
+a { position: relative; text-decoration: none; color: var(--color-black); transition: 0.1s; }
+a::after { content: ""; position: absolute; bottom: -1px; left: 0; width: 100%; height: 1px; background-color: var(--color-black); transition: 0.1s; }
+a:hover { color: var(--color-red); }
+a:hover::after { width: 0; }
+
+.container { max-width: var(--site-width); margin: auto; }
+
+.main-nav { padding: 15px 0; }
+.main-nav__list { display: flex; list-style-type: none; }
+.main-nav__item { margin-right: 15px; }
+
+.site-header { display: flex; align-items: center; justify-content: center; height: 300px; background-image: url("/assets/img/moody-forest.jpg"); background-size: cover; }
+
+.main-logo { width: 200px; }
+.main-logo__img { width: 100%; }
+
+.main-sidebar { padding: 30px 0 0 15px; }
+
+.site-footer { margin-top: 120px; height: 200px; background-color: var(--color-black); }
+
+.articles-list__title { margin: 15px 0; font-weight: 900; font-size: 3.4rem; }
+.articles-list__list { margin-top: 30px; list-style-type: none; }
+.articles-list__item { margin-bottom: 15px; }
+
+.post-preview__title { margin-bottom: 15px; font-size: 2.6rem; }
+.post-preview__title a { font-weight: 700; text-transform: uppercase; }
+.post-preview__title a::after { display: none; }
+
+.author__photo { width: 280px; }
+.author__photo img { width: 100%; border-radius: 2px; }
+.author__name { margin-top: 5px; font-size: 1.3em; font-weight: 700; }
+.author__about { margin-top: 10px; }
+.author__social { margin-top: 15px; }
+.author__social .fab { display: inline-block; margin-right: 10px; font-size: 2.5rem; transition: 0.2s; cursor: pointer; }
+.author__social .fab:hover { color: var(--color-red); }
+
+.wrapper { display: flex; justify-content: space-between; }
+.wrapper__content { width: 660px; }
+.wrapper__sidebar { width: 320px; }

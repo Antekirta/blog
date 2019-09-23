@@ -1,0 +1,32 @@
+.author {
+  &__photo {
+    width: 280px;
+    img {
+      width: 100%;
+      border-radius: 2px;
+    }
+  }
+  &__name {
+    margin-top: 5px;
+    font-size: 1.3em;
+    font-weight: 700;
+  }
+  &__about {
+    margin-top: 10px;
+  }
+  &__social {
+    margin-top: 15px;
+
+    .fab {
+      display: inline-block;
+      margin-right: 10px;
+      font-size: 2.5rem;
+      transition: 0.2s;
+      cursor: pointer;
+
+      &:hover {
+        color: var(--color-red);
+      }
+    }
+  }
+}

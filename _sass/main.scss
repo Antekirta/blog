@@ -1,0 +1,28 @@
+:root {
+  --site-width: 1024px;
+
+  --color-black: #222;
+  --color-red: #cf000f;
+}
+
+@import "./reset";
+
+.container {
+  max-width: var(--site-width);
+  margin: auto;
+}
+
+// components
+@import "./components/main-nav";
+@import "./components/site-header";
+@import "./components/main-logo";
+@import "./components/main-sidebar";
+@import "./components/site-footer";
+@import "./components/articles-list";
+@import "./components/post-preview";
+@import "./components/author";
+
+// pages
+@import "./pages/main-page";
+
+@import "./components/wrapper";

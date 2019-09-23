@@ -1,0 +1,15 @@
+<section class="site-header">
+    <figure class="main-logo">
+        <img class="main-logo__img" src="/assets/img/rune.svg" alt="">
+    </figure>
+</section>
+
+<nav class="container main-nav">
+    <ul class="main-nav__list">
+        {% for item in site.data.navigation %}
+        <li class="main-nav__item">
+            <a href="{{ item.link | relative_url }}" class="main-nav__link">{{ item.name }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</nav>

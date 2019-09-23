@@ -1,0 +1,25 @@
+---
+title: Home
+layout: default
+---
+<div class="main-page">
+    <div class="articles-list main-page__articles-list">
+        <h1 class="articles-list__title">Blog</h1>
+
+        <ul class="articles-list__list">
+            {% for post in site.posts %}
+            <li class="articles-list__item">
+                <div class="post-preview">
+                    <header class="post-preview__title">
+                        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                    </header>
+
+                    <p>
+                        {{ post.excerpt }}
+                    </p>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

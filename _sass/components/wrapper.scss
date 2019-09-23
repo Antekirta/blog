@@ -1,0 +1,12 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    &__content {
+        width: 660px;
+    }
+
+    &__sidebar {
+        width: 320px;
+    }
+}
