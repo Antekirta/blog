@@ -114,7 +114,12 @@ a:hover::after { width: 0; }
 
 .post-preview__read-more-button:hover { display: inline-block; box-shadow: 0.5px 2px 2px var(--color-blue); color: var(--color-blue); }
 
-.post { margin-top: 30px; }
+.post { margin-top: 15px; }
+.post__title { margin-bottom: 15px; font-size: 2.6rem; font-weight: 700; color: var(--color-blue); }
+.post__meta { margin: 15px 0; }
+.post__reading-time { margin: 15px 0; }
+.post p { margin-bottom: 15px; font-size: 1.5rem; }
+.post img { max-width: 100%; margin: 15px 0; }
 
 .site-footer { margin-top: 120px; min-height: 100px; }
 

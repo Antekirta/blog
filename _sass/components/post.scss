@@ -1,3 +1,28 @@
 .post {
-  margin-top: 30px;
+  margin-top: 15px;
+
+  &__title {
+    margin-bottom: 15px;
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: var(--color-blue);
+  }
+
+  &__meta {
+    margin: 15px 0;
+  }
+
+  &__reading-time {
+    margin: 15px 0;
+  }
+
+  p {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+  }
+
+  img {
+    max-width: 100%;
+    margin: 15px 0;
+  }
 }
