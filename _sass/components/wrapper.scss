@@ -1,12 +1,12 @@
 .wrapper {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+}
 
-    &__content {
-        width: 660px;
-    }
+.wrapper__content {
+  width: 660px;
+}
 
-    &__sidebar {
-        width: 320px;
-    }
+.wrapper__sidebar {
+  width: 320px;
 }

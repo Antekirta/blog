@@ -1,16 +1,14 @@
-.articles-list {
-    &__title {
-        margin: 15px 0;
-        font-weight: 900;
-        font-size: 3.4rem;
-    }
+.articles-list__title {
+  margin: 15px 0;
+  font-weight: 900;
+  font-size: 3.4rem;
+}
 
-    &__list {
-        margin-top: 30px;
-        list-style-type: none;
-    }
+.articles-list__list {
+  margin-top: 30px;
+  list-style-type: none;
+}
 
-    &__item {
-        margin-bottom: 15px;
-    }
+.articles-list__item {
+  margin-bottom: 60px;
 }

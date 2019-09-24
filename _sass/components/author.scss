@@ -1,32 +1,25 @@
 .author {
-  &__photo {
-    width: 280px;
-    img {
-      width: 100%;
-      border-radius: 2px;
-    }
-  }
-  &__name {
-    margin-top: 5px;
-    font-size: 1.3em;
-    font-weight: 700;
-  }
-  &__about {
-    margin-top: 10px;
-  }
-  &__social {
-    margin-top: 15px;
+  padding: 15px;
+  border: solid 1px #eee;
+}
 
-    .fab {
-      display: inline-block;
-      margin-right: 10px;
-      font-size: 2.5rem;
-      transition: 0.2s;
-      cursor: pointer;
+.author__photo {
+  width: 280px;
+}
 
-      &:hover {
-        color: var(--color-red);
-      }
-    }
-  }
+.author__photo img {
+  width: 100%;
+  border-radius: 2px;
+}
+
+.author__name {
+  margin-top: 5px;
+  font-size: 1.3em;
+  font-weight: 700;
+  color: var(--color-black);
+  letter-spacing: 0.05rem;
+}
+
+.author__about {
+  margin-top: 10px;
 }

@@ -1,0 +1,18 @@
+.popular-posts {
+  margin-top: 15px;
+  padding: 15px;
+  border: solid 1px #eee;
+}
+
+.popular-posts__list {
+  list-style-type: none;
+}
+
+.popular-posts__item {
+  margin-bottom: 10px;
+}
+
+.popular-posts__link {
+  line-height: 2.2rem;
+  color: var(--color-blue);
+}
