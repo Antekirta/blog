@@ -6,27 +6,23 @@ layout: default
 <div class="main-page">
     <div class="articles-list main-page__articles-list">
         <ul class="articles-list__list">
+            {% for post in site.posts %}
             <li class="articles-list__item">
                 <div class="post-preview">
                     <header class="post-preview__title">
-                        <a href="/antekirta-blog/2019/09/08/hello.html">One More</a>
+                        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
                     </header>
 
                     <div class="post-preview__details">
-                        posted on 22:17 , by <a href="#">Annie Bold</a>
+                        posted on {{ post.date }} , by <a href="#">{{ post.author }}</a>
                     </div>
 
                     <figure class="post-preview__figure">
-                        <img src="assets/img/article-preview.jpg" alt="" class="post-preview__img" />
+                        <img src="{{ post.img | relative_url  }}" alt="{{ post.title }}" class="post-preview__img" />
                     </figure>
 
                     <div class="post-preview__excerpt">
-                        <p>
-                            Fred Astaire (born Frederick Austerlitz; May 10, 1899 – June 22, 1987) was an American
-                            dancer, singer, actor, choreographer and television presenter. He is widely regarded as
-                            the most influential dancer in the history of film. His stage and subsequent
-                            film and television careers spanned a total of 76 years, during which he starred in ...
-                        </p>
+                        {{ post.excerpt }}
                     </div>
 
                     <div class="post-preview__read-more">
@@ -36,31 +32,7 @@ layout: default
                     </div>
                 </div>
             </li>
-
-            <li class="articles-list__item">
-                <div class="post-preview">
-                    <header class="post-preview__title">
-                        <a href="/antekirta-blog/2019/09/08/hello.html">One More</a>
-                    </header>
-
-                    <div class="post-preview__details">
-                        posted on 22:17 , by <a href="#">Annie Bold</a>
-                    </div>
-
-                    <figure class="post-preview__figure">
-                        <img src="src/images/article-preview.jpg" alt="" class="post-preview__img" />
-                    </figure>
-
-                    <div class="post-preview__excerpt">
-                        <p>
-                            Fred Astaire (born Frederick Austerlitz; May 10, 1899 – June 22, 1987) was an American
-                            dancer, singer, actor, choreographer and television presenter. He is widely regarded as
-                            the most influential dancer in the history of film. His stage and subsequent
-                            film and television careers spanned a total of 76 years, during which he starred in ...
-                        </p>
-                    </div>
-                </div>
-            </li>
+            {% endfor %}
         </ul>
     </div>
 </div>

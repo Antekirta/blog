@@ -1,21 +1,21 @@
-<section class="site-header" style="background-image: url('assets/img/site-header-bg.jpg')">
+<section class="site-header" style="background-image: url({{'assets/img/site-header-bg.jpg' | relative_url }})">
     <figure class="main-logo">
-        <img class="main-logo__img" src="assets/img/logo.svg" alt="" />
+        <img class="main-logo__img" src="{{'assets/img/logo.svg' | relative_url }}" alt="" />
     </figure>
 </section>
 
 <nav class="container main-nav">
     <ul class="main-nav__list">
         <li class="main-nav__item">
-            <a href="/antekirta-blog/" class="main-nav__link">Home</a>
+            <a href="{{'/' | relative_url}}" class="main-nav__link">Home</a>
         </li>
 
         <li class="main-nav__item">
-            <a href="/antekirta-blog/about" class="main-nav__link">About</a>
+            <a href="{{'/about' | relative_url}}" class="main-nav__link">About</a>
         </li>
 
         <li class="main-nav__item">
-            <a href="/antekirta-blog/contacts" class="main-nav__link">Contacts</a>
+            <a href="{{'/contacts' | relative_url}}" class="main-nav__link">Contacts</a>
         </li>
     </ul>
 </nav>
