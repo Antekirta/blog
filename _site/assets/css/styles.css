@@ -74,7 +74,7 @@ a:hover::after { width: 0; }
 
 .main-nav__item { position: relative; margin-right: 15px; z-index: 1; }
 
-.main-nav__item::after { opacity: 0; content: ""; position: absolute; left: 0; top: 39px; height: 5px; width: 100%; background-color: var(--color-yellow); transition: 0.2s; }
+.main-nav__item::after { opacity: 0; content: ""; position: absolute; left: 0; top: 42px; height: 5px; width: 100%; background-color: var(--color-yellow); transition: 0.2s; }
 
 .main-nav__item:hover::after { opacity: 1; }
 
