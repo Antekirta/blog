@@ -1,51 +1,18 @@
 .block-label {
   position: relative;
-  padding: 10px 0 20px 15px;
-}
-
-.block-label::before,
-.block-label::after {
-  content: "";
-  position: absolute;
-  z-index: 0;
-  left: 0;
-  top: calc(50% - 10px);
-  width: 100%;
-  height: 10px;
-  background-color: var(--color-yellow);
-  border: solid 1px var(--color-blue);
-  border-radius: 2px;
+  padding: 10px 0 10px 0;
 }
 
 .block-label__text {
   position: relative;
   z-index: 1;
   display: inline-block;
-  padding: 15px 20px;
+  padding: 10px 20px;
   background-color: var(--color-yellow);
-  border: solid 1px var(--color-blue);
   border-radius: 4px;
   font-weight: 700;
   font-size: 1.3rem;
   color: var(--color-blue);
   letter-spacing: 0.1rem;
   text-transform: uppercase;
-}
-
-.block-label__text::before,
-.block-label__text::after {
-  content: "";
-  position: absolute;
-  top: calc(50% - 4px);
-  height: 10px;
-  width: 10px;
-  background-color: var(--color-yellow);
-}
-
-.block-label__text::before {
-  left: -1px;
-}
-
-.block-label__text::after {
-  right: -1px;
 }

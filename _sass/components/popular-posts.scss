@@ -1,11 +1,12 @@
 .popular-posts {
-  margin-top: 15px;
+  margin: 15px;
   padding: 15px;
-  border: solid 1px #eee;
+  // border: solid 1px #eee;
 }
 
 .popular-posts__list {
   list-style-type: none;
+  margin-bottom: 15px;
 }
 
 .popular-posts__item {
