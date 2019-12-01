@@ -2,26 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9084094-4eb4-4caf-b495-c7587aa2b73d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/site-footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/site-footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/site-header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/site-header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/components/author.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/components/author.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/components/main-logo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/components/main-logo.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/components/main-nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/components/main-nav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/components/popular-posts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/components/popular-posts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/components/post-preview.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/components/post-preview.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/components/site-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/components/site-header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/components/articles-list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/components/articles-list.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/2019/09/08/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019/09/08/article.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/2019/09/08/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019/09/08/hello.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/2019/09/08/trial.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019/09/08/trial.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_site/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575191585441</updated>
-      <workItem from="1575191586559" duration="2888000" />
+      <workItem from="1575191586559" duration="4248000" />
     </task>
     <servers />
   </component>

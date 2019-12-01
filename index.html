@@ -14,7 +14,7 @@ layout: default
                     </header>
 
                     <div class="post-preview__details">
-                        posted on {{ post.date }} , by <a href="{{'/about' | relative_url}}">{{ post.author }}</a>
+                        posted on {{ post.date | date_to_long_string }} , by <a href="{{'/about' | relative_url}}">{{ post.author }}</a>
                     </div>
 
                     <figure class="post-preview__figure">
@@ -30,6 +30,10 @@ layout: default
                             Read more
                         </a>
                     </div>
+                </div>
+                
+                <div class="articles-list__line">
+                    <img src="{{'/assets/img//line.png' | relative_url}}" alt="">
                 </div>
             </li>
             {% endfor %}
